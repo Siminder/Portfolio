@@ -1,5 +1,4 @@
 import {
-    mobile,
     backend,
     web,
     javascript,
@@ -12,10 +11,13 @@ import {
     nodejs,
     mongodb,
     ztm,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    dashboard,
+    blogai,
+    chatapp,
+    odin, 
+    nextjs,
+    mysql,
   } from "../assets";
   
   export const navLinks = [
@@ -25,7 +27,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Education",
     },
     {
       id: "contact",
@@ -37,10 +39,6 @@ import {
     {
       title: "Web Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
@@ -89,6 +87,14 @@ import {
       name: "Three JS",
       icon: threejs,
     },
+    {
+      name: "Next Js",
+      icon: nextjs,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
   ];
   
   const experiences = [
@@ -108,7 +114,7 @@ import {
     {
       title: "Three.js and TypeScript",
       company_name: "Udemy: Sean Bradley",
-      icon: ztm,
+      icon: threejs,
       iconBg: "#ffffff",
       date: "February 2023 - February 2023",
       points: 
@@ -119,71 +125,97 @@ import {
         "Learned about the model loaders such as the OBJ, MTL, GLTF, DRACO and more",
       ],
     },
+    {
+      title: "The Odin Project",
+      company_name: "https://www.theodinproject.com",
+      icon: odin,
+      iconBg: "#ffffff",
+      date: "April 2023 - May 2023",
+      points: 
+      [
+        "HTML and CSS fundamentals",
+        "Responsive web design with CSS frameworks (e.g., Bootstrap, Foundation)",
+        "Client-side web development with React",
+        "Server-side web development with Node.js and Express.js",
+        "Databases and data modeling with SQL and MongoDB",
+        "Authentication and security in web applications",
+        "Git and version control for collaborative coding",
+        "Deployment and hosting of web applications on cloud platforms (e.g., Heroku, Vercel)"
+      ],
+    },
    
   ];
   const projects = [
     {
-      name: "Car Rent",
+      name: "Finance Dashboard App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The Finance Dashboard App is a web application created by Siminder. It provides users with a comprehensive and intuitive platform to manage their personal finances effectively. With this app, users can track their income, expenses, and savings, gain insights through visualizations and reports, and set financial goals.",
       tags: [
         {
-          name: "react",
+          name: "Vite",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: dashboard,
+      source_code_link: "https://github.com/Siminder/Finance-Dashboard-App",
     },
     {
-      name: "Job IT",
+      name: "Blog-Ai-App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Blog AI App, is an innovative web application that utilizes artificial intelligence to enhance the blogging experience. This app leverages cutting-edge technologies to provide bloggers with advanced features and capabilities.",
       tags: [
         {
-          name: "react",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Prisma",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: blogai,
+      source_code_link: "https://github.com/Siminder/blog-ai-app",
     },
     {
-      name: "Trip Guide",
+      name: "ChatApp",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The ChatApp, developed by Siminder, is an impressive real-time chat application that enables users to communicate seamlessly with each other. This application leverages the power of web technologies to provide a secure and interactive chat platform",
       tags: [
         {
-          name: "nextjs",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Redis",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Next-Auth",
           color: "pink-text-gradient",
         },
+        {
+          name: "Next-Auth",
+          color: "blue-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: chatapp,
+      source_code_link: "https://github.com/Siminder/ChatApp",
     },
   ];
   
